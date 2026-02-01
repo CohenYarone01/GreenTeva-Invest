@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ReactLenis, useLenis } from '@studio-freight/react-lenis';
 import { FiArrowRight, FiArrowLeft, FiMenu, FiX } from 'react-icons/fi';
 import { useForm, ValidationError } from '@formspree/react';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // --- VOS IMAGES ---
 const ASSETS = {
   logo: "/assets/logo.jpg",
