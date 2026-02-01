@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ReactLenis, useLenis } from '@studio-freight/react-lenis';
 import { FiArrowRight, FiArrowLeft, FiMenu, FiX } from 'react-icons/fi';
 import { useForm, ValidationError } from '@formspree/react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
 // --- VOS IMAGES ---
 const ASSETS = {
   logo: "/assets/logo.jpg",
@@ -234,7 +234,7 @@ const HomePage = () => {
                 <img src={ASSETS.sales} className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-1000 transform group-hover:scale-105" alt="Sales" />
               </div>
               <div className="border-l border-gold-400/50 pl-6 transition-all group-hover:pl-8">
-                <h3 className="text-2xl font-serif text-white">Jeremie J.</h3>
+                <h3 className="text-2xl font-serif text-white">Jeremie.</h3>
                 <p className="text-[9px] tracking-[0.2em] uppercase text-gold-400 mt-2 mb-4">Conseil & Développement</p>
                 <p className="text-sm text-gray-500 font-light opacity-0 group-hover:opacity-100 transition-opacity duration-700">Expert en relations institutionnelles et partenariats stratégiques.</p>
               </div>
