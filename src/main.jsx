@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { FormspreeProvider } from '@formspree/react';
 import App from './App.jsx'
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import './index.css'
 
 // Votre ID de projet fourni
