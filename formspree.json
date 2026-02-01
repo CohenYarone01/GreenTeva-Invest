@@ -1,0 +1,13 @@
+{
+  "forms": {
+    "contactForm": {
+      "name": "Contact Green Teva Site",
+      "actions": [
+        {
+          "type": "email",
+          "to": "contact@greenteva-invest.com"
+        }
+      ]
+    }
+  }
+}
