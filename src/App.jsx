@@ -158,10 +158,6 @@ const VisionPage = () => {
                 <span className="text-[10px] tracking-widest uppercase">Énergie Verte</span>
              </div>
              <div className="bg-white/5 border border-white/10 p-8">
-                <span className="block text-4xl font-serif text-white mb-2">+15 M€</span>
-                <span className="text-[10px] tracking-widest uppercase">CA Industriel Consolidé</span>
-             </div>
-             <div className="bg-white/5 border border-white/10 p-8">
                 <span className="block text-4xl font-serif text-white mb-2">France</span>
                 <span className="text-[10px] tracking-widest uppercase">Zone d'intervention</span>
              </div>
