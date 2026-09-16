@@ -374,8 +374,21 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/vision" element={<VisionPage />} />
           </Routes>
-          <footer className="py-12 bg-[#020a07] text-center border-t border-white/5">
-             <p className="text-[9px] text-gray-600 uppercase tracking-[0.4em]">© 2024 Green Teva Capital. Paris, France.</p>
+          <footer className="py-12 bg-[#020a07] border-t border-white/5">
+             <div className="container mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center justify-between gap-8">
+               <p className="text-[9px] text-gray-600 uppercase tracking-[0.4em]">© 2024 Green Teva Capital. Paris, France.</p>
+               <a
+                 href="https://greenteva-energies.fr/login"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="group inline-flex items-center gap-3 text-[9px] uppercase tracking-[0.3em] text-gray-500 hover:text-gold-400 transition-colors duration-500"
+               >
+                 <span className="border-b border-transparent group-hover:border-gold-400/40 pb-1 transition-colors duration-500">
+                   Devenir un acteur de l'énergie verte
+                 </span>
+                 <FiArrowRight className="text-[11px] transition-transform duration-500 group-hover:translate-x-1" />
+               </a>
+             </div>
           </footer>
         </div>
       </ReactLenis>
